@@ -6,13 +6,13 @@ Picture on the left, words on the right, and everything the shoot needs is pulle
 
 <picture>
   <source media="(prefers-color-scheme: light)" srcset="images/split-view-light.png">
-  <img alt="Splitpage split view: visual column with reference frames and tagged props, audio column with narration" src="images/split-view-dark.png">
+  <img alt="Splitpage split view: the rundown of all 30 scenes under the header, tagged props, locations and cast in the visual column, narration in the audio column" src="images/split-view-dark.png">
 </picture>
 
 <p align="center">
-  <a href="https://github.com/RetroGorilla/splitpage-releases/releases/tag/v3.0.0-beta.1"><b>Download 3.0 beta</b></a>
+  <a href="https://github.com/RetroGorilla/splitpage-releases/releases"><b>Download the 3.0 beta</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/RetroGorilla/splitpage-releases/releases">All releases</a>
+  <a href="https://github.com/RetroGorilla/splitpage-releases/releases/latest">Latest stable (2.1)</a>
 </p>
 
 ---
@@ -23,9 +23,9 @@ You've written scripts in a Google Doc, kept your shot list in another doc, trac
 
 ### Tag while you write, get a shot list for free
 
-Type `[gaffer tape]`, `{kitchen}`, `~lens flare~` or `<wireless lav>` and it becomes a tracked prop, location, VFX shot or piece of gear. Cast and music/SFX are one click. Every tag lands in the **Production breakdown** with the scenes it appears in, who's getting it, and how far along it is: *Needed → Sourcing → Have it → Returned*.
+Type `[gaffer tape]`, `{kitchen}`, `~lens flare~` or `<wireless lav>` and it becomes a tracked prop, location, VFX shot or piece of gear. Or just write it out: `Prop:`, `Loc:`, `VFX:`, `Cast:`, `Gear:`, `SFX:` or `Music:`, then press Tab. Every tag lands in the **Production breakdown** with the scenes it appears in, who's getting it, and how far along it is: *Needed → Sourcing → Have it → Returned*.
 
-Forgot to tag something you already track? Splitpage underlines it and offers to tag it for you.
+Forgot to tag something you already track? Splitpage underlines it and offers to tag it for you. Or search for it and **Tag all as…** to tag every mention at once.
 
 ### Plan the shoot day by location
 
@@ -33,15 +33,21 @@ The **Shoot** view regroups your script by where it's filmed. Every scene at one
 
 ![Production breakdown grouped by shooting location](images/shoot-day.png)
 
+### See the whole video at a glance
+
+The **rundown** under the header shows every scene as a block, sized by how long it runs and lit by its status. Hover it to magnify the scenes under the pointer, click one to jump there, or drop a scene on it to move it. The script's length sits at the end. Set a **target length** and it tells you how far over or under you are.
+
 ### A teleprompter built for solo shooters
 
 **Scene mode** cues one scene, plays it, and stops at the end, ready for the next take. Step through takes with ← →. **Follow My Voice** scrolls as you talk. In the Windows app it runs on Windows' own speech recognition, so it works offline. Mirror and flip are there if you use a beam-splitter rig.
+
+Write `((beat))` in the narration and it becomes a stage direction: on the prompter, but never waited for and never counted in the read time. Start an audio line with `SFX:` or `Music:` and it becomes a sound cue, kept off the prompter and listed in the breakdown.
 
 ![Teleprompter in scene mode](images/teleprompter.png)
 
 ### Pick up where you left off on day two
 
-Click a scene's dot to mark it *To do → Ready → Shot*. **Hide shot scenes** (Ctrl+Alt+H) collapses everything you've already recorded, the runtime chip shows what's left to read, and the teleprompter skips shot scenes too.
+Click a scene's lamp to mark it *To do → Ready → Shot*. **Hide shot scenes** (Ctrl+Alt+H) collapses everything you've already recorded, the script length shows what's left to read, and the teleprompter can skip shot scenes too.
 
 ![Shot scenes collapsed into one strip](images/hide-shot.png)
 
@@ -53,7 +59,7 @@ Click a scene's dot to mark it *To do → Ready → Shot*. **Hide shot scenes** 
 <tr>
 <td width="50%" valign="top">
 
-**Writer mode.** Just the narration, as one flowing document, with the visuals greyed out in the margin. Word count and runtime update as you type. Export the narration as `.docx` for a voice artist.
+**Writer mode.** Just the narration, as one flowing document, with each scene's visual greyed out in the margin. Word count and runtime update as you type. Export the narration as `.docx` for a voice artist.
 
 </td>
 <td width="50%" valign="top">
@@ -77,23 +83,38 @@ Click a scene's dot to mark it *To do → Ready → Shot*. **Hide shot scenes** 
 <tr>
 <td valign="top">
 
-**A gear list that isn't in the script.** Nobody writes "wireless lav" into narration. Type your kit into the Gear screen, one item per line, then print a packing list to check off before you leave.
+**A B-roll list built for the shoot.** Start a visual line with `B-roll:` and it's on the list. Tick shots off, flag one for a reshoot, filter to what's left, or open the whole list as one printable page grouped by location.
 
 </td>
 <td valign="top">
 
-<img alt="Gear screen" src="images/gear.png">
+<img alt="B-roll panel" src="images/broll.png">
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**A gear list that isn't in the script.** Nobody writes "wireless lav" into narration. Type your kit into the Gear panel, one item per line, then print a packing list to check off before you leave.
+
+</td>
+<td valign="top">
+
+<img alt="Gear panel" src="images/gear.png">
 
 </td>
 </tr>
 </table>
 
-- **Runtime estimate** per scene and for the whole video, set to your own reading speed.
-- **Reference frames** in each scene: drag an image onto the visual column.
-- **One undo for everything** (new in 3.0): typing, tags, moved or split scenes, statuses, pictures, comments.
-- **Work with other people** on your network. Edits to different scenes merge on their own, and in 3.0 edits to the same scene merge word by word.
-- **Exports** to Word, PDF, Markdown, plain text and a CSV breakdown that filters down to one person's pull list.
-- **Your files, no account.** Scripts save as plain Markdown or a single `.splitpage` file, with version history built in.
+- **Runtime** per scene and for the whole video, at your own reading speed. Type a scene's length by hand for a montage or a title card.
+- **Pictures and video in each scene.** Drop images, video files or YouTube and Vimeo links onto the visual column, then flip through them in the scene's gallery.
+- **Whole scenes on the clipboard.** Drag out of a text box to select scenes, then copy, cut or paste them with their comments and pictures, even into another script.
+- **One undo for everything**: typing, tags, moved or split scenes, statuses, pictures, comments and breakdown changes.
+- **Work with other people** on your network. Edits merge word by word, and a dot on the rundown shows which scene each person is in.
+- **Exports** to PDF, Word, Markdown, a spreadsheet, a narration-only file, a CSV breakdown and gear or prop packing lists, all from one Export dialog (Ctrl+E).
+- **Search commands** with Ctrl+K, **Settings** in one place, dark and light themes, and **script zoom** with Ctrl + mouse wheel.
+- **A start screen** with starter scripts and your recent files, plus a 30-scene demo that uses every feature.
+- **Your files, no account.** Scripts save as plain Markdown or a single `.splitpage` file, with autosave and version history built in.
 
 ---
 
@@ -105,13 +126,13 @@ Grab a file from the [releases page](https://github.com/RetroGorilla/splitpage-r
 | --- | --- |
 | `SplitpageDesktopSetup-<version>-x64.exe` | Most Windows PCs (Intel/AMD) |
 | `SplitpageDesktopSetup-<version>-arm64.exe` | Windows on ARM (Snapdragon, Surface Pro X) |
-| `splitpage-<version>.zip` | Portable, for Windows, macOS and Linux. Unzip, then run `start.bat` or `./start.sh` |
+| `splitpage-<version>.zip` | Portable, for Windows, macOS and Linux. Unzip and open `index.html`, or run `start.bat` / `./start.sh` to use it offline and install it as an app |
 
-The installers aren't code-signed yet, so Windows SmartScreen will warn on first run. Click **More info → Run anyway**. `SHA256SUMS.txt` on each release lets you check the download.
+The installer sets Splitpage up for you only, with no administrator needed. It isn't code-signed yet, so Windows SmartScreen will warn on first run: click **More info → Run anyway**. `SHA256SUMS.txt` on each release lets you check the download.
 
-Installed copies update themselves from this page.
+The desktop app tells you when there's a newer release and installs it for you. A portable copy tells you too; unzip the new one over the old folder.
 
-> **3.0 is in beta.** Copies on 2.1 won't be offered it automatically. Download it from the [3.0.0-beta.1 release](https://github.com/RetroGorilla/splitpage-releases/releases/tag/v3.0.0-beta.1). The beta's portable zip can't detect later updates, so check back here. The installers aren't affected.
+> **3.0 is in beta.** The update check only looks at full releases, so copies on 2.1 aren't offered the beta, and a beta install isn't told about the next beta. Check back here for new ones. When 3.0.0 ships, every beta copy is offered it.
 
 ---
 
