@@ -10,9 +10,9 @@ Picture on the left, words on the right, and everything the shoot needs is pulle
 </picture>
 
 <p align="center">
-  <a href="https://github.com/RetroGorilla/splitpage-releases/releases"><b>Download the 3.0 beta</b></a>
+  <a href="https://github.com/RetroGorilla/splitpage-releases/releases/latest"><b>Download Splitpage 3.0</b></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/RetroGorilla/splitpage-releases/releases/latest">Latest stable (2.1)</a>
+  <a href="https://github.com/RetroGorilla/splitpage-releases/releases">All releases</a>
 </p>
 
 ---
@@ -83,7 +83,7 @@ Click a scene's lamp to mark it *To do → Ready → Shot*. **Hide shot scenes**
 <tr>
 <td valign="top">
 
-**A B-roll list built for the shoot.** Start a visual line with `B-roll:` and it's on the list. Tick shots off, flag one for a reshoot, filter to what's left, or open the whole list as one printable page grouped by location.
+**A B-roll list built for the shoot.** Start a visual line with `B-roll:` and it's on the list. Tick shots off, flag one for a reshoot, filter to what's left, or open the whole list as one page grouped by location, scene or person. Export it as a landscape shot list, as a PDF or a spreadsheet, with lines for notes on set.
 
 </td>
 <td valign="top">
@@ -95,7 +95,7 @@ Click a scene's lamp to mark it *To do → Ready → Shot*. **Hide shot scenes**
 <tr>
 <td valign="top">
 
-**A gear list that isn't in the script.** Nobody writes "wireless lav" into narration. Type your kit into the Gear panel, one item per line, then print a packing list to check off before you leave.
+**A gear list that isn't in the script.** Nobody writes "wireless lav" into narration. Type your kit into the Gear panel, one item per line, then print a packing list to tick off on the way out and back, with sign-off lines.
 
 </td>
 <td valign="top">
@@ -111,7 +111,8 @@ Click a scene's lamp to mark it *To do → Ready → Shot*. **Hide shot scenes**
 - **Whole scenes on the clipboard.** Drag out of a text box to select scenes, then copy, cut or paste them with their comments and pictures, even into another script.
 - **One undo for everything**: typing, tags, moved or split scenes, statuses, pictures, comments and breakdown changes.
 - **Work with other people** on your network. Edits merge word by word, and a dot on the rundown shows which scene each person is in.
-- **Exports** to PDF, Word, Markdown, a spreadsheet, a narration-only file, a CSV breakdown and gear or prop packing lists, all from one Export dialog (Ctrl+E).
+- **Exports that look like the app.** The PDF and Word script carry each scene's number, start time, status and read time, tags in their colours and numbered comments, and end with the breakdown, the b-roll shot list and the comments. Markdown, spreadsheets, a narration-only file, the breakdown and packing lists come from the same Export dialog (Ctrl+E).
+- **Send it to anyone.** A **SplitShare** export is one `.html` file with the script and the whole app inside. It opens in any browser on any device, with nothing to install.
 - **Search commands** with Ctrl+K, **Settings** in one place, dark and light themes, and **script zoom** with Ctrl + mouse wheel.
 - **A start screen** with starter scripts and your recent files, plus a 30-scene demo that uses every feature.
 - **Your files, no account.** Scripts save as plain Markdown or a single `.splitpage` file, with autosave and version history built in.
@@ -132,7 +133,7 @@ The installer sets Splitpage up for you only, with no administrator needed. It i
 
 The desktop app tells you when there's a newer release and installs it for you. A portable copy tells you too; unzip the new one over the old folder.
 
-> **3.0 is in beta.** The update check only looks at full releases, so copies on 2.1 aren't offered the beta, and a beta install isn't told about the next beta. Check back here for new ones. When 3.0.0 ships, every beta copy is offered it.
+> **Coming from 2.x or a 3.0 beta?** Your copy offers 3.0.0 as an update. Your scripts and version history come across as they are. The update check only looks at full releases, so betas are never offered automatically.
 
 ---
 
