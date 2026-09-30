@@ -10,7 +10,7 @@ Picture on the left, words on the right, and everything the shoot needs is pulle
 </picture>
 
 <p align="center">
-  <a href="https://github.com/RetroGorilla/splitpage-releases/releases/latest"><b>Download Splitpage 3.0</b></a>
+  <a href="https://github.com/RetroGorilla/splitpage-releases/releases/latest"><b>Download Splitpage 3.1</b></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/RetroGorilla/splitpage-releases/releases">All releases</a>
 </p>
@@ -71,7 +71,7 @@ Click a scene's lamp to mark it *To do → Ready → Shot*. **Hide shot scenes**
 <tr>
 <td valign="top">
 
-**Comments that stay put.** Anchored to the exact phrase, with replies, assignees and Open / Resolved filters. Send an editor or client a **review link**: they can read, run the teleprompter and comment, but the server won't let them change a word.
+**Comments that stay put.** Anchored to the exact phrase, with replies, assignees and Open / Resolved filters. Send an editor or client a **Can comment** link: they can read, run the teleprompter and comment, but the server won't let them change a word.
 
 </td>
 <td valign="top">
@@ -83,7 +83,7 @@ Click a scene's lamp to mark it *To do → Ready → Shot*. **Hide shot scenes**
 <tr>
 <td valign="top">
 
-**A B-roll list built for the shoot.** Start a visual line with `B-roll:` and it's on the list. Tick shots off, flag one for a reshoot, filter to what's left, or open the whole list as one page grouped by location, scene or person. Export it as a landscape shot list, as a PDF or a spreadsheet, with lines for notes on set.
+**A B-roll list built for the shoot.** Start a visual line with `B-roll:` and it's on the list. Tick shots off, flag one for a reshoot, filter to what's left, or open the whole list as one page grouped by location, scene or person. Export it as a landscape shot list, as a PDF or an Excel sheet, with lines for notes on set.
 
 </td>
 <td valign="top">
@@ -107,11 +107,11 @@ Click a scene's lamp to mark it *To do → Ready → Shot*. **Hide shot scenes**
 </table>
 
 - **Runtime** per scene and for the whole video, at your own reading speed. Type a scene's length by hand for a montage or a title card.
-- **Pictures and video in each scene.** Drop images, video files or YouTube and Vimeo links onto the visual column, then flip through them in the scene's gallery.
+- **Pictures and video in each scene.** Drop images, video files or YouTube and Vimeo links onto the visual column, then flip through them in the scene's gallery. **Annotate** a picture with a pen, highlighter and text; the marks stay editable and the original is kept.
 - **Whole scenes on the clipboard.** Drag out of a text box to select scenes, then copy, cut or paste them with their comments and pictures, even into another script.
 - **One undo for everything**: typing, tags, moved or split scenes, statuses, pictures, comments and breakdown changes.
-- **Work with other people** on your network. Edits merge word by word, and a dot on the rundown shows which scene each person is in.
-- **Exports that look like the app.** The PDF and Word script carry each scene's number, start time, status and read time, tags in their colours and numbered comments, and end with the breakdown, the b-roll shot list and the comments. Markdown, spreadsheets, a narration-only file, the breakdown and packing lists come from the same Export dialog (Ctrl+E).
+- **Collaborate with a link.** **Collab** puts the script on your server and gives you a Can edit and a Can comment link for that one script, with no accounts. Edits merge word by word, a dot on the rundown shows which scene each person is in, and changes made offline are kept and merged back in.
+- **Exports that look like the app.** The PDF and Word script carry each scene's number, start time, status and read time, tags in their colours and numbered comments, and end with the breakdown, the b-roll shot list and the comments. **Excel** workbooks (sized columns, wrapped text, filters) or CSV, Markdown, a narration-only file, the breakdown and packing lists come from the same Export dialog (Ctrl+E).
 - **Send it to anyone.** A **SplitShare** export is one `.html` file with the script and the whole app inside. It opens in any browser on any device, with nothing to install.
 - **Search commands** with Ctrl+K, **Settings** in one place, dark and light themes, and **script zoom** with Ctrl + mouse wheel.
 - **A start screen** with starter scripts and your recent files, plus a 30-scene demo that uses every feature.
@@ -133,7 +133,11 @@ The installer sets Splitpage up for you only, with no administrator needed. It i
 
 The desktop app tells you when there's a newer release and installs it for you. A portable copy tells you too; unzip the new one over the old folder.
 
-> **Coming from 2.x or a 3.0 beta?** Your copy offers 3.0.0 as an update. Your scripts and version history come across as they are. The update check only looks at full releases, so betas are never offered automatically.
+> **Coming from 3.0?** Your copy offers 3.1.0 as an update, and everything comes across as it is.
+>
+> **Coming from 2.x?** Install [3.0.0](https://github.com/RetroGorilla/splitpage-releases/releases/tag/v3.0.0) first and open your scripts once, so their version history is converted, then update to 3.1. Your scripts themselves open fine in 3.1 either way; only the 2.x version history needs 3.0.0.
+>
+> The update check only looks at full releases, so betas are never offered automatically.
 
 ---
 
